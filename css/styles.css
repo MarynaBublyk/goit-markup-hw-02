@@ -1,0 +1,153 @@
+:root {
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #fff;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404BBF
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue, #2e2f42);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-web {
+  color: var(--iris, #4d5ae5);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* HEADER!!!!!!!!!!! */
+
+.header-item {
+  color: var(--navyblue, #2E2F42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-item:active {
+  color: var(--ocean, #404BBF);
+}
+
+.header-contacts-item {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.header-contacts-item:active {
+  color: var(--ocean, #404BBF);
+}
+
+/* MAIN */
+
+.main-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  background-color: var(--navyblue, #2e2f42);
+}
+
+.button-order {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--iris, #4d5ae5);
+}
+
+.button-order:active {
+  background: var(--ocean, #404BBF); 
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.name-menu-item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.menu-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--navyblue, #2e2f42);
+}
+
+/* PAGE 2 */
+
+.button-item {
+color: var(--iris, #4D5AE5);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background: var(--cloud, #F4F4FD);
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--white, #FFF);
+  background: var(--ocean, #404BBF);
+}
+
+
+
+

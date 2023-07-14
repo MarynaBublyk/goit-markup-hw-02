@@ -109,8 +109,6 @@ body {
   background: var(--ocean, #404bbf);
 }
 
-
-
 .name-menu-item {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;

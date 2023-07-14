@@ -10,7 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate, #434455);
-  background-color: --white, #fff;
+  background-color: var(--white);
 }
 
 .header-logo {
@@ -55,6 +55,7 @@ body {
 }
 
 .header-contacts-item {
+  color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -85,6 +86,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   background-color: var(--navyblue, #2e2f42);
+  text-align: center;
 }
 
 .button-order {
@@ -107,7 +109,7 @@ body {
   background: var(--ocean, #404bbf);
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -119,7 +121,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .name-menu-item {
   color: var(--navyblue, #2e2f42);
@@ -142,10 +144,15 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .members-team {
   background-color: var(--cloud);
+}
+
+.team-members-item {
+  background-color: var(--white);
 }
 
 .name-menu-item {
@@ -173,7 +180,7 @@ body {
 .button-item {
   font-family: "Roboto", sans-serif;
   color: var(--iris, #4d5ae5);
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
